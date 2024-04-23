@@ -50,9 +50,7 @@ The final URI looks similar to this: `mongodb+srv://Username:MyPassword@modmail-
 ![Connection String - 2](./example/atlas6.png)
 
 Now that you have your connection URI, click the deploy button below and start your app deployment. Paste the entire URI you obtained from above into the MONGODB_URI Text box.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/errbit/errbit/tree/master)
-
+Build.io  
 After deploying the application, you still need to run `rake errbit:bootstrap`
 to create indexes and get your admin user set up. You can do this by clicking the `Run Console` button in the More dropdown button of your new Heroku app. Then paste the rake command above and be sure to copy your admin credentials!
 
